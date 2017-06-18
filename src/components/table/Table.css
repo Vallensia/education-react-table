@@ -1,0 +1,11 @@
+.table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin: 5px
+}
+
+.tableData {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: right;
+}
