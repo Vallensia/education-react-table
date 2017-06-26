@@ -1,6 +1,6 @@
 import React, { PropTypes, PureComponent } from 'react';
 
-import styles from './Table.css';
+import './Table.css';
 
 export default class Table extends PureComponent {
     static propTypes = {

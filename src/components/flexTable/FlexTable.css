@@ -1,0 +1,19 @@
+.tableWrapper {
+    display: inline-flex;
+    flex-direction: row;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    margin: 5px;
+}
+
+.tableColumn{
+    display: flex;
+    flex-direction: column;
+}
+
+.tableCell {
+    padding: 5px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+}
