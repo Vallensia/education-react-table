@@ -1,8 +1,8 @@
-import React, { PropTypes, PureComponent } from 'react';
+import React, { PropTypes, Component } from 'react';
 
 import './Table.css';
 
-export default class Table extends PureComponent {
+export default class Table extends Component {
     static propTypes = {
         data: PropTypes.array.isRequired,
         header: PropTypes.array

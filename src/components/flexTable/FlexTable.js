@@ -1,8 +1,8 @@
-import React, { PropTypes, PureComponent } from 'react';
+import React, { PropTypes, Component } from 'react';
 
 import './FlexTable.css';
 
-export default class FlexTable extends PureComponent {
+export default class FlexTable extends Component {
     static propTypes = {
         data: PropTypes.array.isRequired
     };
